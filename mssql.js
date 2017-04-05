@@ -55,7 +55,7 @@ router.delete('/deleterecord/:id', function(req, res) {
             if (err == null) {
                 res.send({ msg: 'ok' });
             } else {
-                res.send({ msg: 'Не удалилося' });
+                res.send({ msg: 'wrong' });
             }
         });
     });
