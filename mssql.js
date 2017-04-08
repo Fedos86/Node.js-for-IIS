@@ -8,7 +8,7 @@ var config = {
     database: '', //database name
     port: 1433, //port
     user: '', //sql user
-    password: '' //sql name
+    password: '' //user pass
 };
 
 router.get('/recordslist', function(req, res) {
